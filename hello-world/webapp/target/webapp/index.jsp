@@ -1,1 +1,1 @@
-<h1> Go Corona Go!! </h1>
+<h1> stop Corona stop!! </h1>
