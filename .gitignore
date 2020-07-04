@@ -1,2 +1,2 @@
-hello-world/server/target
-hello-world/webapp/target
+hello-world/server/target/*
+hello-world/webapp/target/*
