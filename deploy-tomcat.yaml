@@ -3,5 +3,9 @@
   tasks:
   - name: Stop Tomcat
     command: docker-compose stop tomcat
+    register: compose_stop
+  - debug: compose_stop.stdout_lines
   - name: Start Tomcat
     command: docker-compose -f docker-compose.yml up -d
+    register: compose_start
+  - debug: compose_start.stdout_lines
