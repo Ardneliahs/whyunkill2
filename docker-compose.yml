@@ -6,7 +6,7 @@ services:
     ports:
       - "8090:8080"
     volumes:
-      - "/home/jenkins/whyunkill/hello-world/webapp/target/webapp.war:/usr/local/tomcat/webapps/webapp.war"
+      - "/home/jenkins/hello-world/webapp/target/webapp.war:/usr/local/tomcat/webapps/webapp.war"
     networks:
       - net
 networks:
